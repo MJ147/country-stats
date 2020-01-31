@@ -1,5 +1,7 @@
 package com.mja.models;
 
+import java.util.StringJoiner;
+
 public class Country {
 
     private String name;
@@ -28,5 +30,15 @@ public class Country {
 
     public int getCorruption() {
         return corruption;
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", "[", "]")
+                .add("name='" + name + "'")
+                .add("ladder=" + ladder)
+                .add("freedom=" + freedom)
+                .add("corruption=" + corruption)
+                .toString();
     }
 }
