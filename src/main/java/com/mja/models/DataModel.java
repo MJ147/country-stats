@@ -8,7 +8,7 @@ public class DataModel {
     private List<Country> countries;
 
     public DataModel() {
-        this.countries = new ArrayList<Country>();
+        this.countries = new ArrayList<>();
     }
 
     public List<Country> getCountries() {
