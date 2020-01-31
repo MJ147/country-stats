@@ -1,4 +1,4 @@
-package com.mja;
+package com.mja.utils;
 
 import com.mja.models.Country;
 import com.mja.models.DataModel;
